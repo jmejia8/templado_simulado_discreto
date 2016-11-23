@@ -1,7 +1,7 @@
 
 #include <stdlib.h>
 #define MBIG 1000000000
-#define MSEED 161803398
+#define MSEED 16183398
 #define MZ 0
 #define FAC (1.0/MBIG)
 

@@ -23,6 +23,7 @@ int main(void)
 		
 		iorder[i] = i;
 	}
+
 	
 	// Ejecuta templado simulado
 	anneal(x, y, iorder, NCITY);
@@ -35,6 +36,9 @@ int main(void)
 		ii = iorder[i];
 		printf("%4d %10.4f %10.4f\n",ii,x[ii],y[ii]);
 	}
+	
+	save_latex(x, y, iorder, NCITY);
+
 	
 	free_vector(y,1,NCITY);
 	free_vector(x,1,NCITY);

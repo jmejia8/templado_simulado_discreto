@@ -12,3 +12,4 @@
 #include "tools/anneal.c"
 #include "tools/reverse.c"
 #include "tools/fmin.c"
+#include "tools/save_tex.c"
