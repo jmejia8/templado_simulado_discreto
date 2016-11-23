@@ -36,7 +36,8 @@ int main(void)
 		ii = iorder[i];
 		printf("%4d %10.4f %10.4f\n",ii,x[ii],y[ii]);
 	}
-	
+
+	// guarda en latex
 	save_latex(x, y, iorder, NCITY);
 
 	
